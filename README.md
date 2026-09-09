@@ -6,6 +6,26 @@ RolTrack centraliza en una sola aplicación el registro de hidratación, aliment
 
 ---
 
+## Capturas de la aplicación
+
+### Dashboard
+
+![Dashboard de RolTrack](roltrack-screenshots/roltrack-1-dashboard.png)
+
+### Hábitos
+
+![Módulo de hábitos](roltrack-screenshots/roltrack-2-habitos.png)
+
+### Generador de rutinas
+
+![Generador de rutinas](roltrack-screenshots/roltrack-3-rutina.png)
+
+### Running con GPS
+
+![Running con Google Maps](roltrack-screenshots/roltrack-4-running.png)
+
+---
+
 ## Características principales
 
 ### Dashboard
