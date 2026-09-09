@@ -1,0 +1,22 @@
+# Android Studio
+*.iml
+.gradle
+/.idea
+.DS_Store
+
+# Local configuration / API keys
+/local.properties
+secrets.properties
+
+# Build files
+/build
+/app/build
+/captures
+
+# Native build
+.externalNativeBuild
+.cxx
+
+# Signing keys
+*.jks
+*.keystore

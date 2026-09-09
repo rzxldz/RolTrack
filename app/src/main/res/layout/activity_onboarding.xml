@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edad"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso (kg)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estatura (cm)"
+            android:inputType="numberDecimal" />
+
+        <AutoCompleteTextView
+            android:id="@+id/actvGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meta principal" />
+
+        <EditText
+            android:id="@+id/etWaterGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meta de agua diaria (ml)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etSleepGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meta de sueño diaria (horas)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etExerciseGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meta de ejercicio semanal (min)"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnSaveProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Guardar y continuar" />
+
+    </LinearLayout>
+</ScrollView>
